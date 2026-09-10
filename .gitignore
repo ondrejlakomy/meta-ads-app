@@ -1,0 +1,11 @@
+.env
+# Zálohy tokenu z token-extend --write-env mají v názvu časové razítko,
+# takže holé `.env.bak` je nechytí — a je v nich platný token.
+.env.bak*
+venv/
+.venv/
+__pycache__/
+*.pyc
+.usage/
+.DS_Store
+.pytest_cache/
